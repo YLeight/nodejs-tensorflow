@@ -55,7 +55,7 @@
     "@types/lodash": "^4.14.69",
     "awesome-typescript-loader": "^3.2.1",
     "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.1",
+    "babel-loader": "7.1.1",
     "babel-preset-latest": "^6.24.1",
     "chai": "^4.0.2",
     "mocha": "^3.4.2",
