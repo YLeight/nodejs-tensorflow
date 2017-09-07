@@ -16,7 +16,8 @@
     "download_libs": "grunt --gruntfile tools/Gruntfile download_libtensorflow --force",
     "gyp": "node-gyp configure build",
     "build": "webpack --config tools/webpack.config.js",
-    "test": "mocha-webpack --colors --webpack-config tools/webpack.config.test.js --full-trace \"test/**/*.js\""
+    "test": "mocha-webpack --colors --webpack-config tools/webpack.config.test.js --full-trace \"test/**/*.js\"",
+    "doc": "typedoc --out ./docs/api ./src"
   },
   "repository": {
     "type": "git",
@@ -63,6 +64,7 @@
     "nan": "^2.6.2",
     "pbf-loader": "^1.1.0",
     "protobufjs": "^6.8.0",
+    "typedoc": "^0.8.0",
     "typescript": "^2.4.1",
     "webpack": "^1.12.9"
   }
